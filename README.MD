@@ -23,6 +23,7 @@ Projeto de API utilizando FastAPI com estrutura MVC e autenticação JWT.
     ```
 
 4. Execute a aplicação:
+Em outro terminal:
     ```sh
     uvicorn app.main:app --reload
     ```
