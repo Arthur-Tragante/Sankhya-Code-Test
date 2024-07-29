@@ -1,0 +1,70 @@
+@import './variables';
+@import './mixins';
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+  box-sizing: border-box;
+
+  h1 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  form {
+    width: 100%;
+
+    .form-group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .error {
+      color: red;
+      margin: 10px 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 15px;
+
+      button {
+        background-color: $secondary-color;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: darken($secondary-color, 10%);
+        }
+        &:disabled {
+          background-color: lighten($secondary-color, 20%);
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}
