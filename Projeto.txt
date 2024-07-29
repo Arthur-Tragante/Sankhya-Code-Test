@@ -1,0 +1,59 @@
+Após o bate papo técnico, gostaríamos de propor um projeto-teste para avaliar seus conhecimentos. Você deve desenvolver o projeto,subir no github e entregar até a próxima segunda-feira, dia 29/07 às 9h, segue um descritivo geral do projeto.
+
+Projeto de API usando FastAPI com estrutura MVC e autenticação JWT
+
+Descrição do Projeto:
+Neste teste técnico, você será responsável por criar algumas API's utilizando o framework FastAPI em Python, seguindo a estrutura padrão do Modelo-Visão-Controlador (MVC). As API 's devem permitir o gerenciamento de usuários, utilizando um banco de dados SQLite para armazenar os dados.
+
+Tarefas a serem realizadas:
+
+Configuração inicial:
+
+    Crie um novo projeto FastAPI seguindo a estrutura do Modelo-Visão-Controlador (MVC).
+    Crie um arquivo Readme.md para documentar o projeto.
+
+
+Instalação da aplicação:
+
+    No arquivo Readme.md, forneça instruções claras e detalhadas sobre como instalar e executar a aplicação localmente. Certifique-se de mencionar a importância de criar e ativar um ambiente virtual do Python para evitar conflitos com outras bibliotecas e dependências.
+
+
+Banco de dados e Models:
+
+    Utilize o SQLAlchemy para gerenciar o banco de dados.
+    Crie um banco de dados SQLite contendo a tabela "usuário" necessária para a aplicação.
+    Implemente a classe de model que representará a estrutura da tabela de usuário.
+
+
+Estrutura MVC:
+
+    Organize o projeto seguindo o padrão Modelo-Visão-Controlador (MVC), onde as classes e funções relacionadas ao modelo, à visão e ao controle da aplicação estejam devidamente separadas em seus respectivos diretórios ou módulos.
+
+
+Endpoints:
+
+    Implemente os endpoints necessários para as funcionalidades básicas de CRUD (Create, Read, Update, Delete) para os usuários.
+    Certifique-se de que os endpoints para salvar, alterar e remover dados estejam devidamente protegidos por autenticação JWT, garantindo que apenas usuários autenticados tenham acesso a essas operações.
+
+
+Endpoint de Listagem com Filtros e Paginação:
+
+    Implemente um endpoint de listagem que permita a aplicação de filtros nos resultados, como por exemplo, filtrar usuários por nome ou outros atributos relevantes.
+    Adicione suporte para paginação na listagem, possibilitando a exibição de um número limitado de resultados por página.
+
+
+Autenticação JWT:
+
+    Utilize o mecanismo de autenticação JWT (JSON Web Tokens) para proteger os endpoints sensíveis da API.
+    Explique no Readme.md como funciona o processo de autenticação e como os usuários podem obter um token válido para acessar as operações protegidas.
+
+
+GitHub e Projeto Público:
+
+    Crie um repositório no GitHub para hospedar o projeto.
+    Mantenha o repositório público para que o código-fonte e a documentação estejam disponíveis para ser feito o clone do projeto.
+    Enviar o link do Github onde o projeto está hospedado como resposta a este email.
+
+
+Observações Finais:
+Lembre-se de seguir as boas práticas de desenvolvimento de software, como a organização do código em módulos e a utilização de comentários para facilitar a compreensão. Além disso, mantenha o arquivo Readme.md sempre atualizado com as informações necessárias para que outros desenvolvedores possam entender e contribuir para o projeto de forma mais eficiente.
