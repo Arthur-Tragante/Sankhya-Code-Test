@@ -22,7 +22,13 @@ Projeto de API utilizando FastAPI com estrutura MVC e autenticação JWT.
     pip install -r requirements.txt
     ```
 
-4. Execute a aplicação:
+4. Crie um arquivo .env com a seguinte configuração
+    ```sh
+    SECRET_KEY=sua_chave_secreta
+    DATABASE_URL=sqlite:///./test.db
+    ```
+5. Execute a aplicação:
+
 Em outro terminal:
     ```sh
     uvicorn app.main:app --reload
